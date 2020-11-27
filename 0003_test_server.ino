@@ -58,8 +58,8 @@ IPAddress secondaryDNS(8, 8, 4, 4); //optional
 AsyncWebServer server(80);
 
 // REPLACE WITH YOUR NETWORK CREDENTIALS
-const char* ssid = "EMEE_FIBER";
-const char* password = "emee454647";
+const char* ssid = "wifissid";
+const char* password = "password";
 
 const char* PARAM_ACSTATUS = "input_Enable_ac";
 const char* PARAM_FANSPEED = "input_Fanspeed";

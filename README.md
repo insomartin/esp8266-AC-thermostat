@@ -4,3 +4,8 @@ this project is a simple implementation of a ordinary thermostat controlled by e
 - 4 relays for compressor, fan high, fan mid and fan low. <br>
 - the code is a good starting point for implementing wifi based control for standard compressor AC's <br>
 
+TODO
+- too long to list. 
+- Access point mode to input wifi settings is a must. knowing which IP address is manually viewed via serial monitor.
+
+

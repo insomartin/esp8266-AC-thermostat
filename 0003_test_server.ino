@@ -38,7 +38,7 @@ String str_sens_humi;
 int initialize_AC = true;
 int compressor_timeout = 60;
 int State_compressor_timeout ;
-float hysterisis = 1.2;
+float hysteresis = 1.2;
 
 unsigned long previousMillis = 0;
 unsigned long currentMillis;
@@ -344,7 +344,7 @@ void loop() {
       }
     
     else{
-      if ( hts221_temperature > temp_setpoint + hysterisis ){ 
+      if ( hts221_temperature > temp_setpoint + hysteresis ){ 
           digitalWrite(compressor_motor, HIGH);
       }
       if (hts221_temperature < temp_setpoint  ){
